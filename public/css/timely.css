@@ -1,0 +1,5 @@
+body { background-color: #ccc; }
+p { color: #666; }
+.blurb { width: 300px; margin: 96px auto; }
+.glyph { color: #299ecc; }
+.clock { font-size: 4em; font-weight: bold; width: 100%; margin: auto; }
