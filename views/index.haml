@@ -1,7 +1,8 @@
 .blurb
   %h1 Timely
-  %p Timely is a simple javascript timer that counts down and then plays a sound.
+  %p Timely is a minimal kitchen timer that counts down and plays a sound when it's done.
 
-  %form{ ":accept-charset" => "UTF-8", :action => "countdown", :method => "get"}
-    %input{:id => "duration", :name => "duration", :value => "5 minutes", :type => "text"}
+  %form{ ":accept-charset" => "UTF-8", :action => "/", :method => "get"}
+    %input{:id => "time", :name => "time", :value => "5 minutes", :type => "text"}
     %input{:type => "submit", :value => "start timer", :class => "btn primary start_timer"}
+    %a{:href => "#", :class => "add_note"} add a note

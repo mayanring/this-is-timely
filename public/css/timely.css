@@ -191,3 +191,5 @@ button.btn::-moz-focus-inner, input[type=submit].btn::-moz-focus-inner {
 input { width: 290px; }
 
 .start_timer { margin: 1em 0 0 0; float:right; }
+.add_note { margin: 1em 0 0 0; display: none; color: #aaa; }
+.add_note:hover { color: #222; }
