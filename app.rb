@@ -26,7 +26,7 @@ get '/:time' do
   if @time == 0
     "No time was found!"
   else
-    "#{@time}"
+    haml :timer
   end
 end
 

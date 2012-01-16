@@ -1,8 +1,18 @@
 .blurb
-  %h1 Timely
-  %p Timely is a minimal kitchen timer that counts down and plays a sound when it's done.
+  %div.this-is This is
+  %h1.logo Timely
 
-  %form{ ":accept-charset" => "UTF-8", :action => "/", :method => "get"}
-    %input{:id => "time", :name => "time", :value => "5 minutes", :type => "text"}
-    %input{:type => "submit", :value => "start timer", :class => "btn primary start_timer"}
-    %a{:href => "#", :class => "add_note"} add a note
+  %h2 Explanation
+  %p 
+    %strong thisistimely
+    is a minimal kitchen timer.
+  
+  %h2 Usage
+  %code thisistimely.com/duration
+  %p Bookmark for quick access.
+
+  %h2 Examples
+  %code thisistimely.com/5 minutes
+  %br
+  %code thisistimely.com/3 hours 4 minutes 2 seconds
+
