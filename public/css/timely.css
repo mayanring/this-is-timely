@@ -1,11 +1,10 @@
-.blurb { float: right; width: 300px; margin: 24px 48px; }
-.blurb p { font: 0.75em/1em "Helvetica", Arial, sans-serif; }
-.this-is, h2 { text-transform: uppercase; font: normal normal normal 0.4em/1em "Hoefler Text", Baskerville, Garamond, "Palatino Linotype", Georgia, "Times New Roman", serif; color: #444; border-bottom: 1px solid #444; letter-spacing: 0.2em; }
-
+body { background: #C44032; color: #fff; }
 h2 { margin-top: 2em; margin-bottom: 0; }
-.logo { margin-top: 0; padding-top: 0; color: #F03232; } 
-
-code { background: #eee; font-size: 0.75em; display: inline; }
+p { font: 0.75em/1em "Helvetica Neue", "Helvetica", Arial, sans-serif; }
+code { font-size: 0.75em; display: inline; }
+.landing { width: 80%; max-width: 1200px; margin: 0 auto; }
+.landing h1 { font: 96px/1 "Helvetica Neue", "Helvetica", Arial, sans-serif; font-weight: bold; width: 100%; display: inline-block; opacity: 0.85; margin: 0; }
+.copyright { margin-top: 2em; font: 0.75em/1em "Helvetica Neue", "Helvetica", Arial, sans-serif; }
 
 
 .start_timer { margin: 1em 0 0 0; float:right; }
