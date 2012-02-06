@@ -2,11 +2,8 @@ body { background: #C44032; color: #fff; }
 h2 { margin-top: 2em; margin-bottom: 0; }
 p { font: 0.75em/1em "Helvetica Neue", "Helvetica", Arial, sans-serif; }
 code { font-size: 0.75em; display: inline; }
-.landing { width: 80%; max-width: 1200px; margin: 0 auto; }
+.container { width: 80%; max-width: 1200px; margin: 0 auto; }
 .landing h1 { font: 96px/1 "Helvetica Neue", "Helvetica", Arial, sans-serif; font-weight: bold; width: 100%; display: inline-block; opacity: 0.85; margin: 0; }
 .copyright { margin-top: 2em; font: 0.75em/1em "Helvetica Neue", "Helvetica", Arial, sans-serif; }
 
-
-.start_timer { margin: 1em 0 0 0; float:right; }
-.add_note { margin: 1em 0 0 0; display: none; color: #aaa; }
-.add_note:hover { color: #222; }
+.timer { margin-top: 0.35em; }
