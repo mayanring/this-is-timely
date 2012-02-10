@@ -22,6 +22,7 @@ get '/:time' do
   seconds = params[:time].match(/(\d+\s*)s/) { |m| m.captures[0] }
 
   @time = total_time_in_seconds(days.to_i, hours.to_i, minutes.to_i, seconds.to_i)
+  @body_id = "timer"
 
   if @time == 0
     "No time was found!"
@@ -35,5 +36,6 @@ get '/' do
 		redirect to("/#{CGI.escape(params[:time])}")
 	end
 
+  @body_id = "landing"
 	haml :index
 end

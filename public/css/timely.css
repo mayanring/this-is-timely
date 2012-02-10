@@ -1,4 +1,7 @@
-body { background: #C44032; color: #fff; }
+body { color: #fff; }
+#landing { background-color: #ccc; }
+#timer { background-color: #c44032; }
+
 h2 { margin-top: 2em; margin-bottom: 0; }
 p { font: 0.75em/1em "Helvetica Neue", "Helvetica", Arial, sans-serif; }
 code { font-size: 0.75em; display: inline; }
@@ -6,4 +9,5 @@ code { font-size: 0.75em; display: inline; }
 .landing h1 { font: 96px/1 "Helvetica Neue", "Helvetica", Arial, sans-serif; font-weight: bold; width: 100%; display: inline-block; opacity: 0.85; margin: 0; }
 .copyright { margin-top: 2em; font: 0.75em/1em "Helvetica Neue", "Helvetica", Arial, sans-serif; }
 
-.timer { margin-top: 0.35em; }
+.timer { margin-top: 0.35em; font: 0.75em/1em "Helvetica Neue", "Helvetica", Arial, sans-serif; font-weight: bold; }
+.time_remaining { text-transform: lowercase; }
