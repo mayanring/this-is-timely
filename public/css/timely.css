@@ -11,4 +11,5 @@ code { font-size: 1em/1em; display: inline; background-color: #bbb; padding: 4px
 .copyright { margin-top: 2em; font: 0.75em/1em "Helvetica Neue", "Helvetica", Arial, sans-serif; }
 .timer { margin-top: 0.35em; font: 0.75em/1em "Helvetica Neue", "Helvetica", Arial, sans-serif; font-weight: bold; color: #fff; }
 .time_remaining { text-transform: lowercase; }
-.blurb { width: 33%; float: right; }
+.blurb { width: 33%; float: right; margin-top: 4em; }
+.copyright { margin-top: 4em; }
