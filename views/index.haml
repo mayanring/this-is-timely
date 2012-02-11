@@ -11,10 +11,14 @@
     %h2 Usage
     %p In your address bar:
     %p
-      %code thisistimely.com/5 minutes
+      %code
+        %a{ :href => "/5 minutes" } thisistimely.com/5 minutes
     %p
-      %code thisistimely.com/1d 2h 3m 4s
-    %p Bookmark for quick access.
+      %code
+        %a{ :href => "/1d 2h 3m 4s" } thisistimely.com/1d 2h 3m 4s
+    %p Bookmark for quick access. faq
 
-    .copyright &copy; 2012 rming
+    .copyright
+      &copy; 2012
+      %a{ :href => "http://twitter.com/ryanming"} rming
 

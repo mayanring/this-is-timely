@@ -1,7 +1,14 @@
 body { color: #666; }
 h2 { margin-top: 2em; margin-bottom: 0; }
 p { font: 1em/1em "Helvetica Neue", "Helvetica", Arial, sans-serif; }
-code { font-size: 1em/1em; display: inline; background-color: #bbb; padding: 4px; color: #fff; }
+code { font-size: 1em; display: inline; background-color: #bbb; padding: 4px; color: #fff; line-height: 1.5em; }
+
+a { color: #666; }
+a:hover { text-decoration: none; }
+
+code a { color: #fff; text-decoration: none; }
+code a:hover { color: #666; }
+
 
 #landing { background-color: #ccc; }
 #timer { background-color: #c44032; }
