@@ -1,6 +1,5 @@
-body { color: #666; }
+body { color: #666; font: 1em/1.5em "Helvetica Neue", "Helvetica", Arial, sans-serif; }
 h2 { margin-top: 2em; margin-bottom: 0; }
-p { font: 1em/1em "Helvetica Neue", "Helvetica", Arial, sans-serif; }
 code { font-size: 1em; display: inline; background-color: #bbb; padding: 4px; color: #fff; line-height: 1.5em; }
 
 a { color: #666; }
@@ -13,10 +12,33 @@ code a:hover { color: #666; }
 #landing { background-color: #ccc; }
 #timer { background-color: #c44032; }
 
-.container { width: 80%; max-width: 1200px; margin: 0 auto; }
+.container { width: 80%; max-width: 1200px; min-width: 320px; margin: 0 auto; }
 .landing h1 { font: 96px/1 "Helvetica Neue", "Helvetica", Arial, sans-serif; font-weight: bold; width: 100%; display: inline-block; opacity: 0.85; margin: 0; color: #fff; }
 .copyright { margin-top: 2em; font: 0.75em/1em "Helvetica Neue", "Helvetica", Arial, sans-serif; }
 .timer { margin-top: 0.35em; font: 0.75em/1em "Helvetica Neue", "Helvetica", Arial, sans-serif; font-weight: bold; color: #fff; }
 .time_remaining { text-transform: lowercase; }
-.blurb { width: 33%; float: right; margin-top: 4em; }
+.blurb { width: 38.1966012%; float: right; margin-top: 4em; }
 .copyright { margin-top: 4em; }
+
+@media screen and (max-width: 768px) {
+  code {
+    font-size: 0.75em;
+    line-height: 1em;
+  }
+
+  .container {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  code {
+    font-size: 1em;
+    line-height: 1.5em;
+  }
+
+  .blurb {
+    float: none;
+    width: 100%;
+  }
+}
