@@ -1,24 +1,27 @@
 body { color: #666; font: 1em/1.5em "Helvetica Neue", "Helvetica", Arial, sans-serif; }
+h1 { font: 96px/1 "Helvetica Neue", "Helvetica", Arial, sans-serif; font-weight: bold; width: 100%; display: inline-block; opacity: 0.85; margin: 0; color: #fff; }
 h2 { margin-top: 2em; margin-bottom: 0; }
 code { font-size: 1em; display: inline; background-color: #bbb; padding: 4px; color: #fff; line-height: 1.5em; }
 
 a { color: #666; }
 a:hover { text-decoration: none; }
-
 code a { color: #fff; text-decoration: none; }
 code a:hover { color: #666; }
 
 
-#landing { background-color: #ccc; }
+#landing, #about { background-color: #ccc; }
 #timer { background-color: #c44032; }
+#timer .this_is { color: #fff; }
 
-.container { width: 80%; max-width: 1200px; min-width: 320px; margin: 0 auto; }
-.landing h1 { font: 96px/1 "Helvetica Neue", "Helvetica", Arial, sans-serif; font-weight: bold; width: 100%; display: inline-block; opacity: 0.85; margin: 0; color: #fff; }
+.this_is { margin-top: 0; }
+.container { width: 80%; max-width: 1200px; min-width: 320px; margin: 32px auto; overflow: hidden; } /* PPK clearing alternative */
 .copyright { margin-top: 2em; font: 0.75em/1em "Helvetica Neue", "Helvetica", Arial, sans-serif; }
 .timer { margin-top: 0.35em; font: 0.75em/1em "Helvetica Neue", "Helvetica", Arial, sans-serif; font-weight: bold; color: #fff; }
 .time_remaining { text-transform: lowercase; }
 .blurb { width: 38.1966012%; float: right; margin-top: 4em; }
 .copyright { margin-top: 4em; }
+.ly { opacity: 0.2;}
+.return { display: block; margin-top: 2em; }
 
 @media screen and (max-width: 768px) {
   code {

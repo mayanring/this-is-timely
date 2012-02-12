@@ -15,6 +15,11 @@ helpers do
   end
 end
 
+get '/about' do
+  @body_id = "about"
+  haml :about
+end
+
 get '/:time' do
   days = params[:time].match(/(\d+\s*)d/) { |m| m.captures[0] }
   hours = params[:time].match(/(\d+\s*)h/) { |m| m.captures[0] }

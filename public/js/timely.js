@@ -11,7 +11,8 @@
       });
     }
 
-    $('#timely').fitText(0.31);
+    $('#timely').fitText(0.315);
+    $('#about_timely').fitText(0.56);
     $('.timer').fitText(0.58);
   });
 })(jQuery);
