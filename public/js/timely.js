@@ -9,6 +9,7 @@
         layout: '<div class="time_remaining">{d<}<div class="days">{dn} {dl}</div>{d>}{h<}<div class="hours">{hn} {hl}</div>{h>}{m<}<div class="minutes">{mn} {ml}</div>{m>}{s<}<div class="seconds">{snn} {sl}</div>{s>}</div>',
         expiryText: "time&#8217;s up",
         onExpiry: function() {
+          $('#alarm').get(0).play();
           alert("Time's up!");
         }
       });
