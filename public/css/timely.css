@@ -22,6 +22,8 @@ code a:hover { color: #666; }
 .copyright { margin-top: 4em; }
 .ly { opacity: 0.2;}
 .return { display: block; margin-top: 2em; }
+#timer .return { color: #fff; margin-top: 4em; display: none; }
+#timer .return.reveal { display: block; }
 
 @media screen and (max-width: 768px) {
   code {

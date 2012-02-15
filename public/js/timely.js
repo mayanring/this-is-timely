@@ -11,6 +11,7 @@
         onExpiry: function() {
           $('#alarm').get(0).play();
           alert("Time's up!");
+          $('.return').addClass('reveal');
         }
       });
     }

@@ -1,6 +1,7 @@
 .container
   %h2.this_is This is your timer
   .timer{ :data => { :timer => "+#{@time}s" } }
+  %a{ :href => "/", :class => "return" } ← return
 %audio{ :id => 'alarm', :preload => 'auto' }
   %source{ :src => 'sounds/ttc_chime.mp3' }/
   %source{ :src => 'sounds/ttc_chime.ogg' }/
