@@ -45,8 +45,12 @@ code a:hover { color: #666; }
     line-height: 1.5em;
   }
 
+  .container {
+    width: 90%;
+  }
+
   .blurb {
-    float: none;
     width: 100%;
+    float: none;
   }
 }
