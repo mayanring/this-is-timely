@@ -1,0 +1,10 @@
+.container
+  / %h2.this_is This is an error
+  %h1.error_code 400
+  .blurb
+    %blockquote
+      %p
+        ! #{@message[:quote]}
+      %footer
+        = @message[:author]
+    %a{ :href => "/", :class => "return" } ← try again

@@ -10,7 +10,6 @@
         expiryText: "time&#8217;s up",
         onExpiry: function() {
           $('#alarm').get(0).play();
-          alert("Time's up!");
           $('.return').addClass('reveal');
         }
       });
@@ -19,5 +18,6 @@
     $('#timely').fitText(0.315);
     $('#about_timely').fitText(0.56);
     $('.timer').fitText(0.58);
+    $('.error_code').fitText(0.17);
   });
 })(jQuery);

@@ -2,6 +2,8 @@ body { color: #666; font: 1em/1.5em "Helvetica Neue", "Helvetica", Arial, sans-s
 h1 { font: 96px/1 "Helvetica Neue", "Helvetica", Arial, sans-serif; font-weight: bold; width: 100%; display: inline-block; opacity: 0.85; margin: 0; color: #fff; }
 h2 { margin-top: 2em; margin-bottom: 0; }
 code { font-size: 1em; display: inline; background-color: #bbb; padding: 4px; color: #fff; line-height: 1.5em; }
+blockquote { margin: 1em 0; }
+blockquote footer { text-transform: uppercase; color: #999; }
 
 a { color: #666; }
 a:hover { text-decoration: none; }
@@ -9,7 +11,7 @@ code a { color: #fff; text-decoration: none; }
 code a:hover { color: #666; }
 
 
-#landing, #about { background-color: #ccc; }
+#landing, #about, #error { background-color: #ccc; }
 #timer { background-color: #c44032; }
 #timer .this_is { color: #fff; }
 
@@ -24,6 +26,7 @@ code a:hover { color: #666; }
 .return { display: block; margin-top: 2em; }
 #timer .return { color: #fff; margin-top: 4em; display: none; }
 #timer .return.reveal { display: block; }
+
 
 @media screen and (max-width: 768px) {
   code {
