@@ -9,13 +9,21 @@
       is a minimal kitchen timer.
 
     %h2 Usage
-    %p In your browser's address bar:
+    %p Set a timer by indicating its duration in your browser's address bar, like so:
     %p
       %code
-        %a{ :href => "/5 minutes" } thisistimely.com/5 minutes
+        thisistimely.com/duration
+    %p
+      For example:
     %p
       %code
-        %a{ :href => "/1 day 3 hours" } thisistimely.com/1 day 3 hours
+        %a{ :href => "/1 hour" } 1 hour
+    %p
+      %code
+        %a{ :href => "/5 minutes" } 5 minutes
+    %p
+      %code
+        %a{ :href => "/30 seconds" } 30 seconds
     %p
       Bookmark for quick access.
       %a{:href => "/about" } FAQ
