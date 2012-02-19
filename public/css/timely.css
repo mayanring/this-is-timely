@@ -27,24 +27,11 @@ code a:hover { color: #666; }
 #timer .return { color: #fff; margin-top: 4em; display: none; }
 #timer .return.reveal { display: block; }
 
-
-@media screen and (max-width: 768px) {
-  code {
-    font-size: 0.75em;
-    line-height: 1em;
-  }
-
-  .container {
-    width: 90%;
-  }
+@media screen and (max-width: 824px) {
+  .blurb { width: 61.8033988%; }
 }
 
 @media screen and (max-width: 520px) {
-  code {
-    font-size: 1em;
-    line-height: 1.5em;
-  }
-
   .container {
     width: 90%;
   }
