@@ -15,6 +15,22 @@ code a:hover { color: #666; }
 #timer { background-color: #c44032; }
 #timer .this_is { color: #fff; }
 
+input::-webkit-input-placeholder { color: #fff; } 
+input:-moz-placeholder { color: #666; }
+#timer-duration { 
+  width: auto; border: 0; background-color: #bbb; padding: 4px;
+  font-family: monospace, serif;
+  _font-family: 'courier new', monospace;
+  font-size: 1em;
+  color: #666;
+  transition: background-color 0.4s linear; 
+  -moz-transition: background-color 0.4s linear;    /* FF3.7+ */
+  -o-transition: background-color 0.4s linear;      /* Opera 10.5 */
+  -webkit-transition: background-color 0.4s linear; /* Saf3.2+, Chrome */}
+
+/* #ffc423 */
+#timer-duration:hover { background-color: #fff; }
+
 .this_is { margin-top: 0; }
 .container { width: 80%; max-width: 1200px; min-width: 320px; margin: 32px auto; overflow: hidden; } /* PPK clearing alternative */
 .copyright { margin-top: 2em; font: 0.75em/1em "Helvetica Neue", "Helvetica", Arial, sans-serif; }

@@ -10,9 +10,11 @@
 
     %h2 Usage
     %p Set a timer by indicating its duration in your browser's address bar, like so:
-    %p
-      %code
-        thisistimely.com/duration
+    %form{ :action => "/", :method => "get" }
+      %p
+        %code
+          thisistimely.com/
+          %input{ :id => "timer-duration", :name => "time", :placeholder => "duration" }
     %p
       For example:
     %p
